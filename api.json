@@ -1,10 +1,8 @@
 {
-  "category": "FAE_FOLKLORE",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/duende",
     "maintainers": [
       {
@@ -18,277 +16,82 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "duende",
     "name": "Duende",
-    "aliases": [
-      {
-        "name": "Duendes",
-        "language": "Spanish (plural)",
-        "region": "Spain, Latin America"
-      },
-      {
-        "name": "Dwarf",
-        "language": "English approximation"
-      },
-      {
-        "name": "Goblin",
-        "language": "English approximation"
-      },
-      {
-        "name": "Gnome",
-        "language": "English approximation"
-      }
-    ],
+    "aliases": [],
     "category": "FAE_FOLKLORE",
-    "subcategory": "Goblin/Gnome",
+    "subcategory": "of duende (house or forest)",
     "tags": [
-      "fae",
       "folklore",
-      "goblin",
-      "gnome",
-      "spain",
-      "latin-america",
-      "mischievous",
-      "house-spirit",
-      "forest-spirit"
+      "mythology"
     ],
-    "status": "active",
+    "status": "documented",
     "description": {
-      "summary": "Small humanoid creatures from Spanish and Latin American folklore, typically 2-3 feet tall wearing pointed hats. Behavior ranges from mischievous household helpers to malevolent child-snatchers, varying by region.",
-      "full": "Duende (plural: duendes) are small humanoid creatures deeply embedded in Spanish and Latin American folklore. Typically described as 2-3 feet tall with the appearance of small old men, often wearing pointed hats and distinctive clothing, duendes exhibit a wide range of behaviors depending on regional traditions. In Spain, they are often depicted as house spirits—sometimes helpful, sometimes mischievous, hiding objects or causing minor domestic disturbances. In Mexico and Central America, duendes take on more sinister characteristics as forest dwellers who can kidnap children, curse families, or cause misfortune. Some traditions describe helpful house duendes who assist with chores if treated respectfully, while forest duendes are to be feared and avoided. The creatures serve important cultural functions as cautionary tales for children, explanations for missing objects or children, and as nature protectors. In modern times, duende beliefs remain active particularly in rural Latin America, with continued reports of encounters and sightings."
+      "summary": "Duende (plural: duendes) are small humanoid creatures deeply embedded in Spanish and Latin American folklore.",
+      "full": "Duende (plural: duendes) are small humanoid creatures deeply embedded in Spanish and Latin American folklore. Typically described as 2-3 feet tall with the appearance of small old men, often wearing pointed hats and distinctive clothing, duendes exhibit a wide range of behaviors depending on regional traditions. In **Spain**, they are often depicted as house spirits—sometimes helpful, sometimes mischievous, hiding objects or causing minor domestic disturbances. In **Mexico and Central America**, duendes take on more sinister characteristics as forest dwellers who can kidnap children, curse families, or cause misfortune. The creatures serve important cultural functions as cautionary tales for children, explanations for missing objects or children, and as nature protectors. In modern times, duende beliefs remain active particularly in rural Latin America."
     },
     "etymology": {
-      "origin": "Spanish, possibly from 'dueño de casa' (master of the house) or from Arabic 'duar en-nas' (house of people)",
-      "meaning": "House spirit, goblin, or supernatural dweller",
-      "first_use": "Medieval Spanish literature"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "FAE_FOLKLORE",
-      "type": "Goblin/Gnome",
-      "subtype": "House Spirit / Forest Spirit",
-      "variant": "Iberian/Latin American"
+      "type": "of duende (house or forest)",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "fairies",
-        "name": "Fairies",
-        "relationship": "similar",
-        "description": "European fae creatures, similar concept"
-      },
-      {
-        "id": "goblins",
-        "name": "Goblins",
-        "relationship": "equivalent",
-        "description": "European goblin traditions"
-      },
-      {
-        "id": "gnomes",
-        "name": "Gnomes",
-        "relationship": "similar",
-        "description": "European small earth spirits"
-      },
-      {
-        "id": "leprechaun",
-        "name": "Leprechaun",
-        "relationship": "similar",
-        "description": "Irish small humanoid, similar folklore function"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "height": {
-        "min": 0.6,
-        "max": 0.9,
-        "unit": "meters",
-        "confidence": "high (folklore)"
-      },
-      "weight": {
-        "min": 10,
-        "max": 25,
-        "unit": "kilograms",
-        "confidence": "low"
-      },
-      "coloration": [
-        "varies by region",
-        "often described with dark skin",
-        "sometimes green or brown clothing"
-      ],
-      "features": [
-        {
-          "feature": "Pointed hat",
-          "description": "Wearing distinctive pointed or conical hat",
-          "frequency": "common"
-        },
-        {
-          "feature": "Old man appearance",
-          "description": "Appears as small elderly man with wrinkled face",
-          "frequency": "common"
-        },
-        {
-          "feature": "Small stature",
-          "description": "2-3 feet tall, child-sized",
-          "frequency": "always"
-        },
-        {
-          "feature": "Clothing",
-          "description": "Distinctive traditional or rustic clothing",
-          "frequency": "common"
-        },
-        {
-          "feature": "Long fingers or backward feet",
-          "description": "Some regional variants describe unusual extremities",
-          "frequency": "regional"
-        }
-      ],
-      "morphology": "Small humanoid appearance, child-sized but with adult or elderly facial features. Often depicted wearing distinctive hats and traditional clothing. Regional variations in specific physical descriptions."
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Invisibility or hiding",
-        "description": "Can become invisible or hide exceptionally well",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Object manipulation",
-        "description": "Hides household objects, causes mischief",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Child interaction",
-        "description": "Special ability to interact with or abduct children",
-        "frequency": "regional",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Curse or blessing",
-        "description": "Can curse families or bless households",
-        "frequency": "regional",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Nature protection",
-        "description": "Protects forests and natural areas",
-        "frequency": "regional",
-        "evidence_level": "folklore"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "nocturnal",
-      "disposition": "variable (mischievous to malevolent)",
-      "social_structure": "solitary or small groups",
-      "habitat_preference": [
-        "houses (house duendes)",
-        "forests (forest duendes)",
-        "caves",
-        "rural areas",
-        "gardens"
-      ],
-      "diet": "Not typically specified in folklore",
-      "patterns": [
-        "Mischievous behavior (hiding objects)",
-        "Child interaction (positive or negative)",
-        "Household assistance (if treated well)",
-        "Territorial behavior",
-        "Nature protection"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Widespread across Spanish-speaking world, particularly Spain, Mexico, Central America, and parts of South America. Each region has distinct variations.",
-      "continents": ["Europe", "North America", "South America"],
-      "countries": [
-        "Spain",
-        "Mexico",
-        "Guatemala",
-        "Honduras",
-        "El Salvador",
-        "Nicaragua",
-        "Costa Rica",
-        "Panama",
-        "Colombia",
-        "Puerto Rico",
-        "Various Latin American countries"
-      ],
-      "regions": [
-        "Iberian Peninsula",
-        "Mesoamerica",
-        "Central America",
-        "Caribbean",
-        "Andean regions"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Medieval period",
+        "date": "Unknown",
         "circa": true,
-        "source": "Spanish literature and folklore"
-      },
-      "peak_activity_periods": [
-        {
-          "period": "Ongoing",
-          "description": "Continuous presence in folklore and modern reports"
-        }
-      ],
-      "seasonal_patterns": "No specific seasonal pattern, though some traditions associate with certain times"
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Spanish folklore with possible pre-Christian Iberian roots. Brought to Americas during Spanish colonization and syncretized with indigenous beliefs.",
-      "earliest_accounts": "Medieval Spanish literature. Pre-Columbian indigenous traditions may have merged with Spanish duende concept.",
-      "folklore_connections": "Connected to broader European goblin, gnome, and house spirit traditions. Similar to Kobolds, brownies, and other household spirits."
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "Medieval period",
-        "event": "Spanish duende folklore established",
-        "significance": "Early literary and cultural references",
-        "source": "Spanish folklore collections"
-      },
-      {
-        "date": "1500s-1600s",
-        "event": "Spanish colonization of Americas",
-        "significance": "Duende traditions brought to New World, syncretized with indigenous beliefs",
-        "source": "Colonial records"
-      },
-      {
-        "date": "Ongoing",
-        "event": "Continuous folklore tradition",
-        "significance": "Active belief system, particularly in rural areas",
-        "source": "Modern folklore and anthropological studies"
-      }
-    ],
-    "modern_era": "Duende beliefs remain active, particularly in rural Latin America. Urban legends continue, and the concept persists in popular culture. Serves ongoing cultural functions as cautionary tales and explanations."
+    "timeline": []
   },
-
   "sightings": {
     "statistics": {
-      "total_documented": "thousands (folklore-based)",
+      "total_documented": 0,
       "verified": 0,
-      "disputed": "folklore tradition",
-      "debunked": 0,
-      "date_range": {
-        "earliest": "Medieval period",
-        "latest": "Present"
-      }
+      "disputed": 0,
+      "debunked": 0
     },
     "notable": [],
     "database_path": "./sightings/"
   },
-
   "evidence": {
     "physical": [],
     "photographic": [],
@@ -296,110 +99,28 @@
     "audio": [],
     "trace": []
   },
-
   "theories": {
-    "paranormal": [
-      {
-        "name": "Actual fae/supernatural beings",
-        "description": "Traditional belief: duendes are real supernatural entities from fae realm or spirit world",
-        "proponents": ["Traditional believers"],
-        "evidence_cited": ["Folklore accounts", "Personal experiences", "Cultural continuity"]
-      }
-    ],
+    "paranormal": [],
     "scientific": [],
-    "skeptical": [
-      {
-        "name": "Cultural folklore",
-        "description": "Duendes are purely folkloric creations serving cultural functions: cautionary tales for children, explanations for missing objects/children, nature protection teachings",
-        "proponents": ["Folklorists", "Anthropologists"],
-        "evidence_cited": ["No physical evidence", "Cultural function clear", "Similar folklore worldwide"]
-      },
-      {
-        "name": "Psychological/social phenomena",
-        "description": "Reports reflect psychological states, social needs, or cultural explanations for natural events",
-        "proponents": ["Psychologists", "Sociologists"],
-        "evidence_cited": ["Pattern of reports matches cultural functions", "No objective verification"]
-      },
-      {
-        "name": "Misidentification",
-        "description": "Some modern reports may be misidentifications of small animals, children, or objects",
-        "proponents": ["Skeptics"],
-        "evidence_cited": ["Natural explanations available"]
-      }
-    ]
+    "skeptical": []
   },
-
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Spanish house spirit traditions",
-        "Latin American forest duende beliefs",
-        "Child-snatcher cautionary tales",
-        "Nature guardian stories"
-      ],
-      "stories": [
-        "Duendes hiding household objects",
-        "Children being lured or taken by duendes",
-        "Households blessed or cursed by duendes",
-        "Duendes protecting forests from exploitation",
-        "Interactions requiring specific rituals or respect"
-      ],
-      "beliefs": "Varied by region. Spain: often house spirits (neutral to helpful). Mexico/Central America: often dangerous forest spirits. Require respect, specific behaviors to avoid or appease."
-    },
-    "indigenous": {
-      "cultures": [
-        "Spanish",
-        "Mexican (Mestizo)",
-        "Various Central American cultures",
-        "Indigenous groups with syncretized beliefs"
-      ],
-      "significance": "Important cultural function: teaches children caution, explains mysteries, enforces social norms, protects natural areas through fear of duende retribution.",
-      "sensitivity_note": "Active Hispanic and Latin American folk belief system. Should be respected as living cultural tradition, not dismissed as mere superstition. Reflects important cultural values and teachings.",
-      "respect_guidelines": "Approach with cultural sensitivity. These are living traditions important to communities. Do not appropriate or mock. Recognize cultural and educational functions."
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Spanish folklore collections",
-        "Latin American literature featuring duendes",
-        "Children's cautionary tales",
-        "Folk tale compilations"
-      ],
-      "film_tv": [
-        "Various Latin American films and shows featuring duendes",
-        "*Don't Be Afraid of the Dark* (influenced by duende folklore)",
-        "Horror films using duende concept"
-      ],
-      "games": [
-        "Role-playing game creatures based on duendes",
-        "Cultural education materials"
-      ],
-      "other": [
-        "Tourist attractions in some regions",
-        "Cultural festivals",
-        "Artisan crafts depicting duendes",
-        "Ongoing urban legends"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
   "research": {
     "researchers": [],
     "organizations": [],
-    "ongoing_studies": "Folkloric and anthropological research into duende traditions, cultural functions, and regional variations. No cryptozoological research as understood as folklore."
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "folklore-collections",
-      "type": "folklore",
-      "title": "Spanish and Latin American folklore collections",
-      "note": "Various compilations"
-    },
-    {
-      "id": "anthropological-studies",
-      "type": "academic",
-      "title": "Anthropological studies of Hispanic folklore",
-      "note": "Cultural analysis of duende beliefs"
-    }
-  ]
+  "sources": []
 }
